@@ -1,0 +1,54 @@
+{
+    "url": {
+        "display_name": "Redirect Url",
+        "description": "Please enter your url",
+        "type": "text",
+        "required": true
+    },
+    "fdurl": {
+        "display_name": "Freshdesk Url",
+        "type": "domain",
+        "type_attributes": {
+            "product": "freshdesk"
+        },
+        "required": true
+    },
+    "fdapikey": {
+        "display_name": "Freshdesk API Key",
+        "type": "api_key",
+        "type_attributes": {
+            "product": "freshdesk"
+        },
+        "required": true
+    },
+    "hyperlinktext": {
+        "display_name": "Enter the Hyper Link Text",
+        "type": "text",
+        "required": true
+    },
+    "agentroleid": {
+        "display_name": "Enter the role id for which the agent and group field should be hidden",
+        "type": "text",
+        "required": true
+    },
+    "prescriptionredirecturl": {
+        "display_name": "Prescripton Redirect URL",
+        "type": "text",
+        "required": true
+    },
+    "prescriptionlabel": {
+        "display_name": "Prescription Link Label",
+        "type": "text",
+        "required": true
+    },
+    "allowedroles": {
+        "display_name": "Allowed Role IDs for Prescription",
+        "type": "text",
+        "required": true
+    },
+    "abroadroles": {
+        "display_name": "Abroad Role IDs",
+        "type": "text",
+        "required": true
+    }
+}
